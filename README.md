@@ -1,5 +1,7 @@
 # Suricata
-Install suricata on ubuntu and integrate it with wazuh
+
+### Overview
+Suricata is a high performance, open source network analysis and threat detection software used by most private and public organizations, and embedded by major vendors to protect their assets.
 
 ### **How to install Suricata on ubuntu server** :inbox_tray:
 
