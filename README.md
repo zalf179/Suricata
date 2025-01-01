@@ -1,9 +1,9 @@
 # Suricata
 
-### Overview
+## Overview
 Suricata is a high performance, open source network analysis and threat detection software used by most private and public organizations, and embedded by major vendors to protect their assets.
 
-### **How to install Suricata on ubuntu server** :inbox_tray:
+## **How to install Suricata on ubuntu server** :inbox_tray:
 
 update and upgrade repository
 ```bash
@@ -82,7 +82,7 @@ sudo systemctl status suricata.service
 ```
 ![Screenshot 2024-12-30 113830](https://github.com/user-attachments/assets/898e91b5-d1cf-4b9f-b5ea-898f6c21f116)
 
-### **Integrate with Wazuh** :computer:	
+## **Integrate with Wazuh** :computer:	
 
 Add the following configuration to the /var/ossec/etc/ossec.conf file of the Wazuh agent. This allows the Wazuh agent to read the Suricata logs file:
 
